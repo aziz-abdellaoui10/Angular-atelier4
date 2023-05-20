@@ -1,0 +1,9 @@
+    <div *ngFor="let todo of listTodo">
+        userId:{{todo.userId}}
+        id:{{todo.id}}
+        title:{{todo.title}}
+        completed:{{todo.completed}}
+    </div>
+
+    <button (click)="afficherBilan()">Bilan</button>
+    <p>{{ bilan }}</p>
